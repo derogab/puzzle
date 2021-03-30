@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="jarvis",
+    name="jarvis-core",
     version="1.0.0-beta",
     author="derogab",
     author_email="derosagabriele@outlook.it",
