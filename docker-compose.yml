@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  jarvis:
-    container_name: jarvis
+  puzzle:
+    container_name: puzzle
     build:
       context: .
     volumes:

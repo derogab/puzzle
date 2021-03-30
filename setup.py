@@ -4,24 +4,24 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="jarvis-core",
-    version="1.0.0-beta",
+    name="puzzle-core",
+    version="1.0.0",
     author="derogab",
     author_email="derosagabriele@outlook.it",
-    description="Just A Rather Very Intelligent System",
+    description="A simple tool capable of managing customized automations",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/derogab/jarvis",
+    url="https://github.com/derogab/puzzle",
     license='MIT',
-    package_dir={'jarvis': 'core'},
+    package_dir={'puzzle': 'core'},
     packages=[
-        'jarvis',
+        'puzzle',
     ],
     install_requires=[
         'python-telegram-bot',
         'flask'
     ],
-    keywords='jarvis',
+    keywords='puzzle',
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

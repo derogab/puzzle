@@ -1,6 +1,6 @@
 import json
 
-from jarvis import Plugin
+from puzzle import Plugin
 from telegram import Update
 from telegram.ext import CommandHandler, CallbackContext
 

@@ -3,8 +3,8 @@
 import os
 
 from dotenv import load_dotenv
-from jarvis import PluginCollection
-from jarvis import Tools
+from puzzle import PluginCollection
+from puzzle import Tools
 
 # Load .env file
 load_dotenv()
