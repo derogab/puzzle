@@ -18,7 +18,8 @@ setuptools.setup(
         'jarvis',
     ],
     install_requires=[
-        'python-telegram-bot'
+        'python-telegram-bot',
+        'flask'
     ],
     keywords='jarvis',
     classifiers=[
