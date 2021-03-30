@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="jarvis",
-    version="0.1.0-beta",
+    version="1.0.0-beta",
     author="derogab",
     author_email="derosagabriele@outlook.it",
     description="Just A Rather Very Intelligent System",
