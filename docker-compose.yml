@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  jarvis:
+    container_name: jarvis
+    build:
+      context: .
+    volumes:
+      - './plugins:/usr/src/app/plugins'
+    env_file:
+      - .env
+    ports:
+      - 8080:8080
