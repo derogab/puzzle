@@ -24,8 +24,7 @@ def main():
     my_plugins.start_all_plugins()
 
     # Start telegram bot 
-    tools.telegram.start_polling()
-    tools.telegram.idle()
+    tools.telegram.start_and_idle()
 
 # Start main function
 if __name__ == '__main__':

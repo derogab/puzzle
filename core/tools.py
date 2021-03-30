@@ -1,4 +1,4 @@
-from telegram.ext import Updater
+from .telegram import Telegram
 
 class Tools(object):
     
@@ -9,5 +9,4 @@ class Tools(object):
     def set_telegram(self, token):
         """ Init telegram bot updater """
         if token:
-            self.telegram = Updater(token)
-        
+            self.telegram = Telegram(token)
