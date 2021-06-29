@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/images/icon.svg" align="center" width="150">
+  <img src="https://raw.githubusercontent.com/derogab/puzzle/master/assets/images/icon.svg" align="center" width="150">
   <h1 align="center">Puzzle</h1>
   <p align="center">
     A simple tool capable of managing customized automations through schedules, telegram, etc.  
